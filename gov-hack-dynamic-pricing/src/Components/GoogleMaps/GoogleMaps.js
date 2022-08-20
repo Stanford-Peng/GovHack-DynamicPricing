@@ -1,8 +1,4 @@
-import logo from "./logo.svg";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
-
-function App() {
+function GoogleMaps() {
   return;
   <BrowserRouter>
     <Routes>
@@ -12,4 +8,4 @@ function App() {
   </BrowserRouter>;
 }
 
-export default App;
+export default GoogleMaps;
