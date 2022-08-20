@@ -1,0 +1,27 @@
+{
+   "_id" : 12345 ,
+   "customer_id" : 122334,
+   "bus" : {
+      "bus_id" : 1224,
+      "route_id" : 1212,
+      "serviceType" : Express,
+      "startStop" : {
+         "stopId" : "ST100",
+         "name"  :  "asdasd",
+         "geoLocation" : "122112",
+         "address" : "123"
+       },
+      "endStop"   : {
+         "stopId" : "ST104",
+         "name"  :  "asdasd",
+         "geoLocation" : "122112",
+         "address" : "123"
+      }
+      "capacity"  : 30,
+      "occupancy" : 24
+   },
+  dynamicCost : "4.5",
+  estimatedCost : "5",
+  startDtm : "12/12/2022 02:33:11 pm",
+  endDtm : "12/12/2022 02:33:11 pm",
+}
