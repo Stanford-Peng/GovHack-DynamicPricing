@@ -1,11 +1,5 @@
 function GoogleMaps() {
-  return;
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="maps" element={<GoogleMaps />} />
-    </Routes>
-  </BrowserRouter>;
+  return <div> Google Maps</div>;
 }
 
 export default GoogleMaps;
