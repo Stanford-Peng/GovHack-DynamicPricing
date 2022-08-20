@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AdminView from "./AdminView/AdminView";
+import PastJourneys from "./AdminView/PastJourneys/PastJourneys";
+import "antd/dist/antd.css";
 
 import GoogleMaps from "./Components/GoogleMaps/GoogleMaps";
 
@@ -12,6 +15,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<GoogleMaps />} />
+      <Route path="/AdminView" element={<AdminView />} />
+      <Route path="/PastJourneys" element={<PastJourneys />} />
     </Routes>
   </BrowserRouter>
 );
