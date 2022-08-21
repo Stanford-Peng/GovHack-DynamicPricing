@@ -44,12 +44,7 @@ The *FlexiTrip* admin user application is a web applciation which allows admin u
  The User App  makes this API call to fetch the Estimated Cost of the Route before Journey.
     /v1/DynamicPrice/{journeyID}/estimate
     
-    API Response - The List of Routes and Their Estimated Cost to populate the view on User Modi
-    
- At the End Of the Journey Mobile App would call 
-   /v1/DynamicPrice/{journeyID}/receipt
-   
-This API calculates the Dynamic Price for the User Journey.
+
 
 **URL** : `/v1/DynamicPrice/{journeyID}/estimate`
 
@@ -84,6 +79,35 @@ This API calculates the Dynamic Price for the User Journey.
 }
 ```
    
+    
+ At the End Of the Journey Mobile App would call 
+   /v1/DynamicPrice/{journeyID}/receipt
+   
+This API calculates the Dynamic Price for the User Journey.
+
+**URL** : `/v1/DynamicPrice/{journeyID}/price`
+
+**Method** : `GET`
+
+
+## Success Response
+
+**Code** : `200 OK`
+
+**Content example**
+
+```json
+{
+    {
+       id : "11",
+       route : "ID",
+       startTime : "19:00 pm",
+       endTime : "20:00 pm",
+       cost : "3.00",
+       
+    }
+}
+```
 ### Real Time Occupancy
 This API will provide the Admin View 
 
