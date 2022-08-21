@@ -31,6 +31,7 @@ It will provide the below functionalites:
 - Display routes with estimated price and how crowded they are
 - Touch off and off board reminder
 - Final price calculation based on the actual occupancy rate and  distance along the route
+![userview1-compressed](https://user-images.githubusercontent.com/48232605/185775915-38535c0b-9200-43ab-bd07-cda0e724deed.gif)
 
 ## FlexiTrip Web App ( Admin )
 The *FlexiTrip* admin user application is a web applciation which allows admin user to modify the price per kilomemter and occupancy rate threshold for each zone and line.
