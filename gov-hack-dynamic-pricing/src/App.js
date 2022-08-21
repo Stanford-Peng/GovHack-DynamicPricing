@@ -8,6 +8,7 @@ const { Header, Content, Footer, Sider } = Layout;
 const items = [
   { label: "Home", key: "home" }, // remember to pass the key prop
   { label: "MyWay", key: "myway" }, // which is required
+  { label: "Current Travel Receipt", key: "currentReceipt" }, // which is required
 ];
 const onClickHandler = (e) => {
   if (e.key == "myway") {
@@ -15,6 +16,9 @@ const onClickHandler = (e) => {
   }
   if (e.key == "home") {
     window.location.href = "/";
+  }
+  if (e.key == "currentReceipt") {
+    window.location.href = "/currentReceipt";
   }
 };
 

@@ -1,12 +1,13 @@
 import "antd/dist/antd.css";
-import { Layout, Image, Menu, Switch } from "antd";
+import { Layout, Image, Menu, Button, Descriptions, Radio } from "antd";
 import React, { useState } from "react";
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Footer } = Layout;
 const items = [
   { label: "Home", key: "home" }, // remember to pass the key prop
   { label: "MyWay", key: "myway" }, // which is required
   { label: "Current Travel Receipt", key: "currentReceipt" }, // which is required
 ];
+
 const onClickHandler = (e) => {
   if (e.key == "myway") {
     window.location.href = "/myway";
@@ -18,7 +19,13 @@ const onClickHandler = (e) => {
     window.location.href = "/currentReceipt";
   }
 };
-const MyWay = () => {
+const Receipt = () => {
+  const [size, setSize] = useState("default");
+  const onChange = (e) => {
+    console.log("size checked", e.target.value);
+    setSize(e.target.value);
+  };
+
   return (
     <Layout>
       <Header
@@ -30,7 +37,7 @@ const MyWay = () => {
         <Menu
           mode="horizontal"
           onClick={onClickHandler}
-          defaultSelectedKeys={["1"]}
+          defaultSelectedKeys={["2"]}
           items={items}
         />
       </Header>
@@ -47,9 +54,22 @@ const MyWay = () => {
             textAlign: "center",
           }}
         >
-          Touched On:
-          <Switch size="small" checked={true} />
-          <Image src="/myway.jpeg"></Image>
+          <div>
+            <br />
+            <br />
+            <Image src="/receipt.png" width="300px" height="150px"></Image>
+
+            <Descriptions style={{ marginLeft: "500px" }}>
+              <Descriptions.Item label="Trip fare"> $5.50</Descriptions.Item>
+            </Descriptions>
+            <Descriptions style={{ marginLeft: "500px" }}>
+              <Descriptions.Item label="Distance travelled">
+                15Kms
+              </Descriptions.Item>
+            </Descriptions>
+            <br />
+            <br />
+          </div>
         </div>
       </Content>
       <Footer
@@ -64,4 +84,4 @@ const MyWay = () => {
   );
 };
 
-export default MyWay;
+export default Receipt;

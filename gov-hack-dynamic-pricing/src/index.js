@@ -9,6 +9,7 @@ import MyWay from "./Components/MyWay/MyWay";
 import AdminView from "./AdminView/AdminView";
 import AdminApp from "./AdminView/AdminApp";
 import PastJourneys from "./AdminView/PastJourneys/PastJourneys";
+import Receipt from "./Components/Receipt/Receipt";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +20,7 @@ root.render(
       <Route path="/AdminApp" element={<AdminApp />} />
       <Route path="/PastJourneys" element={<PastJourneys />} />
       <Route path="/Manage" element={<Manage />} />
+      <Route path="/currentReceipt" element={<Receipt />} />
     </Routes>
   </BrowserRouter>
 );
