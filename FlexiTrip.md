@@ -1,9 +1,11 @@
 # FlexiTrip
-*FlexiTrip* is a system which monitors the occupancy rate and real time location of public vehicles in ACT to provde the real-time dynamic pricing to each user.
+*FlexiTrip* is a system which monitors the occupancy rate and real time location of public transport in ACT to provde the real-time dynamic pricing to each user.
 
-*FlexiTrip* believes that a dynamic pricing on public transport will balance the traffic of the whole transport system and let user make a trade-off between speed and cost. The tiered pricing based on occupancy rate will make user willing to pay the extra charge due to the high occupancy rate and bring more revenue to the government.
+*FlexiTrip* believes that a dynamic pricing on public transport will balance the traffic of the whole transport system and let user make a informed decision to choose between time and cost while planning their commute. 
 
-## Problems we identified
+The tiered pricing based on near real time service occupancy  will help  commuters decide their journey in a informed way , which would also benefit governments to outline the Pricing Models flexibly based on the Global 
+
+## Problems We identified
  * Current Pricing Model for Transport is pretty much Static , this does not provide better outcome for three pillars of transport system access, mobility, and connectivity.
  * The Data from the Monthly Passenger Boarding tells that some of the Routes are under utilised, It might relate to the Static Nature of the Pricing
  * Post Covid , The Pattern of commuters getting onboard on the Public transport has drastically changed. 
@@ -12,7 +14,7 @@
  
  FlexiTrip provides ability for Commuters and Government to have Dynamic Pricing Model in place for public transport.
  
- The Dynamic Pricing Model helps Governments set the Pricing based on the Historical 
+ The Dynamic Pricing Model helps Governments set the Pricing based on the Historical Data as well as Near Real Time Occupancy Data . It also helps Government to update the Pricing Model during the Promotional Events.
 
 ### Overall SubSytem View
 
@@ -32,7 +34,7 @@ It will provide the below functionalites:
 - Final price calculation based on the actual occupancy rate and  distance along the route
 
 ## FlexiTrip Web App ( Admin )
-The *FlexiTrip* admin user application is a web applciation which allow admin user to modify the price per kilomemter and occupacy rate threshold for each zone and line
+The *FlexiTrip* admin user application is a web applciation which allows admin user to modify the price per kilomemter and occupancy rate threshold for each zone and line.
 
 ## FlexiTrip APIs
 
