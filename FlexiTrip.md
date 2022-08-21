@@ -22,17 +22,18 @@
 
 ![Spot Pricing Model](https://user-images.githubusercontent.com/2278604/185772665-903e8647-cf30-40b5-8b7e-79afc8207efa.png)
 
-## FlexiTrip Mobile App ( Users )
-*
-*
-*
-*
+## FlexiTrip Mobile App ( User )
+The *FlexiTrip* user application is a mobile app which can present users with all possible routes as well as the estimated price based on occupancy rate and distance from one location to the other. Each possible routes will pass differents stops with a changing occupancy rate
+It will provide the below functionalites:
+- Touch on/off when boarding the public vehicle
+- Display the nearby stops/stations with an average occupancy rate
+- Display routes with estimated price and how crowded they are
+- Touch off and off board reminder
+- Final price calculation based on the actual occupancy rate and  distance along the route
 
-## FlexiTrip Desktop / Mobile App ( Admins )
-*
-*
-*
-*
+## FlexiTrip Web App ( Admin )
+The *FlexiTrip* admin user application is a web applciation which allow admin user to modify the price per kilomemter and occupacy rate threshold for each zone and line
+
 ## FlexiTrip APIs
 
 ### DynamicPriceCalculator
