@@ -51,7 +51,7 @@ The *FlexiTrip* admin user application is a web applciation which allows admin u
 **Method** : `GET`
 
 
-## Success Response
+#### Success Response
 
 **Code** : `200 OK`
 
@@ -90,7 +90,7 @@ This API calculates the Dynamic Price for the User Journey.
 **Method** : `GET`
 
 
-## Success Response
+#### Success Response
 
 **Code** : `200 OK`
 
