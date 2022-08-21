@@ -48,7 +48,12 @@ The *FlexiTrip* admin user application is a web applciation which allow admin us
    /v1/DynamicPrice/{journeyID}/receipt
    
 ### Real Time Occupancy
-### Dynamic 
+This API will provide the Admin View 
+
+### Dynamic Pricing Config
+ This API allows the Admin Client of FlexiTrip to View / Update the Dynamic Pricing Configuration. This API can also be used to apply timeboxed promotiions during the events to attract commuters to travel with Public Transport . e.g. Sporting Event Promotion - FlexiRateReduce by 20%
+  PUT /v1/DynamicPrice/Config -- Update the Dynamic Pricing Model.
+  GET /v1/DynamicPrice/Config -- View the Dynamic Pricing Model.
 
 ## Government Benefits 
 
