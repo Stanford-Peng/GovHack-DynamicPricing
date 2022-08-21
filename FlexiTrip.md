@@ -1,4 +1,7 @@
 # FlexiTrip
+*FlexiTrip* is a system which monitors the occupancy rate and real time location of public vehicles in ACT to provde the real-time dynamic pricing to each user.
+
+*FlexiTrip* believes that a dynamic pricing on public transport will balance the traffic of the whole transport system and let user make a trade-off between speed and cost. The tiered pricing based on occupancy rate will make user willing to pay the extra charge due to the high occupancy rate and bring more revenue to the government.
 
 ## Problems we identified
  * Current Pricing Model for Transport is pretty much Static , this does not provide better outcome for three pillars of transport system access, mobility, and connectivity.
