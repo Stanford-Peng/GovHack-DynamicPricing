@@ -53,7 +53,7 @@ It is very likely that there are two possible routes:
 
 Of course there might be a lot of other routes with slightly different price and distance.
 
-**Once user** choose one of the route and start the journy, he will use the app to touch on the bus/station reader. When touching on, below information will be collected and sent to the event processor:
+**Once user** choose one of the routes and start the journy, he will use the app to touch on the bus/station reader. When touching on, below information will be collected and sent to the event processor:
 - 1) User ID
 - 2) Vehicle ID that the user has taken
 - 3) A plus one flag onto the occupancy 
@@ -65,7 +65,7 @@ Along the journey, other passengers might get off and touch off using the FlexiT
 - 3) A minus one flag onto the occupancy 
 - 4) Station/Stop ID
 
-When near the final stop of the user A, the app will detec the current location of the user and remind user to get off and touch off in various ways. When user A touch off, the app will talk to the dynamic pricing engine and does the following:
+When near the final stop of the user A, the app will detect the current location of the user and remind user to get off and touch off in various ways. When user A touch off, the app will talk to the dynamic pricing engine and does the following:
 - 1) Calculate the actual cost along the journey with the actual occupancy rate between the adjacent stops
 - 2) Deduct the money from the payment method user sets up
 - 3) Notify the user with the total price and calculation metrics(PPK every twp stops)
