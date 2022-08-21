@@ -3,7 +3,7 @@
 
 *FlexiTrip* believes that a dynamic pricing on public transport will balance the traffic of the whole transport system and let user make a informed decision to choose between time and cost while planning their commute. 
 
-The tiered pricing based on near real time service occupancy  will help  commuters decide their journey in a informed way , which would also benefit governments to outline the Pricing Models flexibly based on the Global 
+The tiered pricing based on near real time service occupancy  will help  commuters decide their journey in a informed way , which would also benefit governments to outline the Pricing Models flexibly based on the Global config
 
 ## Problems We identified
  * Current Pricing Model for Transport is pretty much static , this does not provide better outcome for three pillars of transport system access, mobility, and connectivity.
