@@ -35,6 +35,8 @@ It will provide the below functionalites:
 
 ## FlexiTrip Web App ( Admin )
 The *FlexiTrip* admin user application is a web applciation which allows admin user to modify the price per kilomemter and occupancy rate threshold for each zone and line.
+![adminviewgif](https://user-images.githubusercontent.com/48232605/185774696-fe30a7b5-08eb-4cce-b92e-180345e58aec.gif)
+
 
 ## Example
 **Let's say user A** is trying to go from point P1 to point P2. When user input these two points into the mobile app, the mobile app will talk to the dynamic pricing decision engine and the engine will do:
