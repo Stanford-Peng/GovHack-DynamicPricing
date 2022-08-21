@@ -58,14 +58,14 @@ Of course there might be a lot of other routes with slightly different price and
 - 4)Station/Stop ID
 
 Along the journey, other passengers might get off and touch off using the FlexiTrip app. When touching off, below information will be sent to the event processor:
-- 1)User ID
-- 2)Vehicle ID that the user has taken
-- 3)A minus one flag onto the occupancy 
-- 4)Station/Stop ID
+- 1) User ID
+- 2) Vehicle ID that the user has taken
+- 3) A minus one flag onto the occupancy 
+- 4) Station/Stop ID
 
 When near the final stop of the user A, the app will detec the current location of the user and remind user to get off and touch off in various ways. When user A touch off, the app will talk to the dynamic pricing engine and does the following:
-- 1)Calculate the actual cost along the journey with the actual occupancy rate between the adjacent stops
-- 2)Deduct the money from the payment method user sets up
+- 1) Calculate the actual cost along the journey with the actual occupancy rate between the adjacent stops
+- 2) Deduct the money from the payment method user sets up
 - 3) Notify the user with the total price and calculation metrics(PPK every twp stops)
 
 ## FlexiTrip APIs
