@@ -100,7 +100,7 @@ When near the final stop of the user A, the app will detec the current location 
        endTime : "20:00 pm",
        estimatedPrice : "3.00",
        
-    }
+    },
     
     {
        id : "12",
