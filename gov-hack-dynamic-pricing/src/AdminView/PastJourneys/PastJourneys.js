@@ -48,6 +48,7 @@ function PastJourneys() {
           }}
         >
           <div>
+            <h1>Stat to display...</h1>
             <Select
               defaultValue="a"
               style={{
