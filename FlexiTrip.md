@@ -150,8 +150,7 @@ This API will provide the Admin View
   PUT /v1/DynamicPrice/Config -- Update the Dynamic Pricing Model.
   GET /v1/DynamicPrice/Config -- View the Dynamic Pricing Model.
 
-## Government Benefits 
-
-## User Benefits 
+## Benefits 
+By using the proposed solution, users which are price sensitive and not in hurry are gonna take the less occupied route or vehicle with possibly higher distance, longer wait time and cheaper price whereas users in hurry might take the more occupied lines. Eventually, users' dynamic choices will balance the number of passengers on all the routes and give users better experience when taking the public transport.
 
 ## Future Considerations
