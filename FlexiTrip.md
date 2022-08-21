@@ -52,10 +52,10 @@ It is very likely that there are two possible routes:
 Of course there might be a lot of other routes with slightly different price and distance.
 
 **Once user** choose one of the route and start the journy, he will use the app to touch on the bus/station reader. When touching on, below information will be collected and sent to the event processor:
-- 1)User ID
-- 2)Vehicle ID that the user has taken
-- 3)A plus one flag onto the occupancy 
-- 4)Station/Stop ID
+- 1) User ID
+- 2) Vehicle ID that the user has taken
+- 3) A plus one flag onto the occupancy 
+- 4) Station/Stop ID
 
 Along the journey, other passengers might get off and touch off using the FlexiTrip app. When touching off, below information will be sent to the event processor:
 - 1) User ID
