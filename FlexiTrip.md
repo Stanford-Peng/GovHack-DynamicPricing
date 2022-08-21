@@ -6,15 +6,15 @@
 The tiered pricing based on near real time service occupancy  will help  commuters decide their journey in a informed way , which would also benefit governments to outline the Pricing Models flexibly based on the Global 
 
 ## Problems We identified
- * Current Pricing Model for Transport is pretty much Static , this does not provide better outcome for three pillars of transport system access, mobility, and connectivity.
+ * Current Pricing Model for Transport is pretty much static , this does not provide better outcome for three pillars of transport system access, mobility, and connectivity.
  * The Data from the Monthly Passenger Boarding tells that some of the Routes are under utilised, It might relate to the Static Nature of the Pricing
  * Post Covid , The Pattern of commuters getting onboard on the Public transport has drastically changed. 
  * 
 ## How FlexiTrip solves these problems
  
- FlexiTrip provides ability for Commuters and Government to have Dynamic Pricing Model in place for public transport.
+FlexiTrip provides ability for Commuters and Government to have Dynamic Pricing Model in place for public transport.
  
- The Dynamic Pricing Model helps Governments set the Pricing based on the Historical Data as well as Near Real Time Occupancy Data . It also helps Government to update the Pricing Model during the Promotional Events.
+The Dynamic Pricing Model helps Governments set the Pricing based on the Historical Data as well as Near Real Time Occupancy Data . It also helps Government to update the Pricing Model during the Promotional Events.
 
 ### Overall SubSytem View
 
