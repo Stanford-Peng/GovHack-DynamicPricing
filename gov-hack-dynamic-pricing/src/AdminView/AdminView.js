@@ -4,6 +4,7 @@ import {
   DollarCircleOutlined,
   HeatMapOutlined,
 } from "@ant-design/icons";
+import "antd/dist/antd.css";
 import JourneyCounter from "./JourneyCounter";
 import { Button } from "antd";
 import { Link } from "react-router-dom";
@@ -14,21 +15,11 @@ function AdminView() {
       <h1>Journeys Today</h1>
       <JourneyCounter />
       <div class="column">
-        <Link to="/PastJourneys">
+        <Link to="/Manage">
           <Button type="primary" size="large" icon={<LineChartOutlined />}>
-            View Past Journeys
+            Manage Pricing
           </Button>
         </Link>
-      </div>
-      <div class="column">
-        <Button type="primary" size="large" icon={<DollarCircleOutlined />}>
-          View Earnings
-        </Button>
-      </div>
-      <div class="column">
-        <Button type="primary" size="large" icon={<HeatMapOutlined />}>
-          Real-Time Capacity
-        </Button>
       </div>
     </div>
   );

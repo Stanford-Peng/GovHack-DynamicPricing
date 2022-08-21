@@ -1,16 +1,9 @@
-import lineGraph from "./lineGraph.png";
-import "./PastJourneys.css";
 import { Layout, Menu } from "antd";
-import { Select } from "antd";
-import React from "react";
-const { Option } = Select;
-const handleChange = (value) => {
-  console.log(`selected ${value}`);
-};
+import AdminForm from "./AdminForm";
 const { Header, Content } = Layout;
 const items = [
   { label: "Home", key: "home" }, // remember to pass the key prop
-  { label: "Stats", key: "stats" }, // which is required
+  { label: "Journeys", key: "journeys" }, // which is required
   { label: "Manage", key: "manage" },
 ];
 const onClickHandler = (e) => {
@@ -24,8 +17,7 @@ const onClickHandler = (e) => {
     window.location.href = "/Manage";
   }
 };
-
-function PastJourneys() {
+function Manage() {
   return (
     <Layout>
       <Header className="header">
@@ -47,27 +39,10 @@ function PastJourneys() {
             minHeight: 280,
           }}
         >
-          <div>
-            <Select
-              defaultValue="a"
-              style={{
-                width: 120,
-              }}
-              onChange={handleChange}
-            >
-              <Option value="a">Past Journeys</Option>
-              <Option value="b">Earnings</Option>
-              <Option value="c">Real-Time Capacity</Option>
-            </Select>
-          </div>
-          <h1 style={{ marginTop: "2em" }}> Displaying - Past Journeys </h1>
-          <div className="PastJourneys">
-            <img src={lineGraph} alt="lineGraph"></img>
-          </div>
+          <AdminForm />
         </Content>
       </Layout>
     </Layout>
   );
 }
-export default PastJourneys;
-// ReactDOM.render(<DemoLine />, document.getElementById("container"));
+export default Manage;
