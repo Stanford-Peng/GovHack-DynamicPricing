@@ -49,6 +49,41 @@ The *FlexiTrip* admin user application is a web applciation which allows admin u
  At the End Of the Journey Mobile App would call 
    /v1/DynamicPrice/{journeyID}/receipt
    
+This API calculates the Dynamic Price for the User Journey.
+
+**URL** : `/v1/DynamicPrice/{journeyID}/estimate`
+
+**Method** : `GET`
+
+
+## Success Response
+
+**Code** : `200 OK`
+
+**Content example**
+
+```json
+{
+    {
+       id : "11",
+       route : "ID",
+       startTime : "19:00 pm",
+       endTime : "20:00 pm",
+       estimatedPrice : "3.00",
+       
+    }
+    
+    {
+       id : "12",
+       route : "ID",
+       startTime : "19:00 pm",
+       endTime : "20:00 pm",
+       estimatedPrice : "4.00",
+       
+    }
+}
+```
+   
 ### Real Time Occupancy
 This API will provide the Admin View 
 
