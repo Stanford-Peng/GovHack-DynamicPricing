@@ -92,7 +92,7 @@ When near the final stop of the user A, the app will detec the current location 
 **Content example**
 
 ```json
-{
+[
     {
        id : "11",
        route : "ID",
@@ -110,7 +110,7 @@ When near the final stop of the user A, the app will detec the current location 
        estimatedPrice : "4.00",
        
     }
-}
+]
 ```
    
     
