@@ -37,7 +37,7 @@ It will provide the below functionalites:
 The *FlexiTrip* admin user application is a web applciation which allows admin user to modify the price per kilomemter and occupancy rate threshold for each zone and line.
 
 ## Example
-** Let's say user A ** is trying to go from point P1 to point P2. When user input these two points into the mobile app, the mobile app will talk to the dynamic pricing decision engine and the engine will do:
+**Let's say user A** is trying to go from point P1 to point P2. When user input these two points into the mobile app, the mobile app will talk to the dynamic pricing decision engine and the engine will do:
 1) Fetch routes from Google API
 2) Get the nearest stops around the user with the occupancy rate collected from event processor
 3) Use both current occupancy rate from step 2) and historical occupancy rate from the government Open Data set to estimate the price per kilometer(PPK) for the distance between every two step
